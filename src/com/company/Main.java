@@ -38,7 +38,7 @@ public class Main {
         Iterator i1 = listA.iterator();
         Iterator i2 = listB.iterator();
 
-        while (listC.size() < 10) {
+        while (i1.hasNext() || i2.hasNext()) {
 
             listC.add((String) i1.next());
             listC.add((String) i2.next());
